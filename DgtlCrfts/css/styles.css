@@ -1,0 +1,145 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f1f1f1;
+  margin: 0;
+}
+
+/* Style page content */
+.main {
+  margin-bottom: 160px; /* Same as the width of the sidebar */
+  padding: 0px;
+}
+
+.background-image {
+  background-image: url("../img/atl.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 550px;
+  width: 100%;
+  position: relative;
+}
+
+/* .items {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+} */
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15%;
+}
+
+.container a {
+  padding: 10px 25px 10px 25px;
+  text-decoration: none;
+  font-size: 13px;
+  color: #a0a9ba;
+}
+
+.center-items {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: auto;
+  text-align: center;
+  color: #fafafa;
+  margin: -125px 0 0 -165px;
+}
+#logo {
+  margin: auto;
+  width: 60%;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 4.5rem;
+  margin: 20px auto;
+}
+
+h3 {
+  font-weight: 400;
+  color: #a6acb6;
+}
+
+.down-arrow {
+  color: #fff;
+  position: absolute;
+  bottom: 1%;
+  left: 50%;
+  font-weight: 100;
+  margin: -32px 0 0 -20px;
+}
+
+.middle {
+  height: 350px;
+  margin: 5%;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.middle-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.middle-1 {
+  width: 15%;
+  margin: 5%;
+  text-align: center;
+}
+
+/* The bottom menu */
+.bottomnav {
+  height: 100px; /* Full-height: remove this if you want "auto" height */
+  width: 1120px; /* Set the width of the bottomnv */
+
+  z-index: 1; /* Stay on top */
+  bottom: 0; /* Stay at the bottom */
+  left: 0;
+  background-color: #434343;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.bottomnav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.bottomnav a:hover {
+  color: #f1f1f1;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+}
+
+#copyright {
+  text-align: center;
+  color: #676767;
+  font-family: "Lato", sans-serif;
+  font-size: 0.8rem;
+  margin-top: 2.5%;
+}
+
+.bottom-a {
+  color: #b7b7b7;
+  margin: 0 1.5%;
+}
